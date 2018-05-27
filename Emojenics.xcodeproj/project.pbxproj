@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9B8DD0BD9CDA8E4EFE2CE16 /* Pods_Emojenics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00477F21DBA505D5C5FD08C9 /* Pods_Emojenics.framework */; };
 		C363E31820B6B79A00C78F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C363E31720B6B79A00C78F30 /* AppDelegate.m */; };
 		C363E31B20B6B79A00C78F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C363E31A20B6B79A00C78F30 /* ViewController.m */; };
 		C363E31E20B6B79A00C78F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C363E31C20B6B79A00C78F30 /* Main.storyboard */; };
 		C363E32020B6B7A000C78F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C363E31F20B6B7A000C78F30 /* Assets.xcassets */; };
 		C363E32320B6B7A000C78F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C363E32120B6B7A000C78F30 /* LaunchScreen.storyboard */; };
 		C363E32620B6B7A000C78F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C363E32520B6B7A000C78F30 /* main.m */; };
+		C363E32D20B8228C00C78F30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E32C20B8228C00C78F30 /* CoreMedia.framework */; };
+		C363E32F20B8229600C78F30 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E32E20B8229600C78F30 /* CoreVideo.framework */; };
+		C363E33120B822A200C78F30 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E33020B822A200C78F30 /* OpenGLES.framework */; };
+		C363E33320B822AD00C78F30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E33220B822AD00C78F30 /* AVFoundation.framework */; };
+		C363E33520B822B600C78F30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E33420B822B600C78F30 /* QuartzCore.framework */; };
+		C363E33820B83D0F00C78F30 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363E33720B83D0F00C78F30 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00477F21DBA505D5C5FD08C9 /* Pods_Emojenics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emojenics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEFE345711CC13367886472 /* Pods-Emojenics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojenics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics.release.xcconfig"; sourceTree = "<group>"; };
+		9BD0D433369358A08A8CAE0F /* Pods-Emojenics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojenics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics.debug.xcconfig"; sourceTree = "<group>"; };
 		C363E31320B6B79A00C78F30 /* Emojenics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojenics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C363E31620B6B79A00C78F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C363E31720B6B79A00C78F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,13 @@
 		C363E32220B6B7A000C78F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C363E32420B6B7A000C78F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C363E32520B6B7A000C78F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C363E32C20B8228C00C78F30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C363E32E20B8229600C78F30 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C363E33020B822A200C78F30 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C363E33220B822AD00C78F30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C363E33420B822B600C78F30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C363E33620B83D0F00C78F30 /* Emojenics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emojenics-Bridging-Header.h"; sourceTree = "<group>"; };
+		C363E33720B83D0F00C78F30 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C363E33520B822B600C78F30 /* QuartzCore.framework in Frameworks */,
+				C363E33320B822AD00C78F30 /* AVFoundation.framework in Frameworks */,
+				C363E33120B822A200C78F30 /* OpenGLES.framework in Frameworks */,
+				C363E32F20B8229600C78F30 /* CoreVideo.framework in Frameworks */,
+				C363E32D20B8228C00C78F30 /* CoreMedia.framework in Frameworks */,
+				B9B8DD0BD9CDA8E4EFE2CE16 /* Pods_Emojenics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587B8AA9633BE77FB7CB4FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD0D433369358A08A8CAE0F /* Pods-Emojenics.debug.xcconfig */,
+				4DEFE345711CC13367886472 /* Pods-Emojenics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93466318521EAA8600A7A7E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C363E33420B822B600C78F30 /* QuartzCore.framework */,
+				C363E33220B822AD00C78F30 /* AVFoundation.framework */,
+				C363E33020B822A200C78F30 /* OpenGLES.framework */,
+				C363E32E20B8229600C78F30 /* CoreVideo.framework */,
+				C363E32C20B8228C00C78F30 /* CoreMedia.framework */,
+				00477F21DBA505D5C5FD08C9 /* Pods_Emojenics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C363E30A20B6B79A00C78F30 = {
 			isa = PBXGroup;
 			children = (
 				C363E31520B6B79A00C78F30 /* Emojenics */,
 				C363E31420B6B79A00C78F30 /* Products */,
+				587B8AA9633BE77FB7CB4FB1 /* Pods */,
+				93466318521EAA8600A7A7E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +109,13 @@
 				C363E31720B6B79A00C78F30 /* AppDelegate.m */,
 				C363E31920B6B79A00C78F30 /* ViewController.h */,
 				C363E31A20B6B79A00C78F30 /* ViewController.m */,
+				C363E33720B83D0F00C78F30 /* CameraViewController.swift */,
 				C363E31C20B6B79A00C78F30 /* Main.storyboard */,
 				C363E31F20B6B7A000C78F30 /* Assets.xcassets */,
 				C363E32120B6B7A000C78F30 /* LaunchScreen.storyboard */,
 				C363E32420B6B7A000C78F30 /* Info.plist */,
 				C363E32520B6B7A000C78F30 /* main.m */,
+				C363E33620B83D0F00C78F30 /* Emojenics-Bridging-Header.h */,
 			);
 			path = Emojenics;
 			sourceTree = "<group>";
@@ -78,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C363E32920B6B7A000C78F30 /* Build configuration list for PBXNativeTarget "Emojenics" */;
 			buildPhases = (
+				6B9C62F673A7882DFB93ACCF /* [CP] Check Pods Manifest.lock */,
 				C363E30F20B6B79A00C78F30 /* Sources */,
 				C363E31020B6B79A00C78F30 /* Frameworks */,
 				C363E31120B6B79A00C78F30 /* Resources */,
+				66088F5589CFA08773E27ACF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +153,7 @@
 				TargetAttributes = {
 					C363E31220B6B79A00C78F30 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -136,12 +188,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66088F5589CFA08773E27ACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9C62F673A7882DFB93ACCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emojenics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C363E30F20B6B79A00C78F30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C363E31B20B6B79A00C78F30 /* ViewController.m in Sources */,
+				C363E33820B83D0F00C78F30 /* CameraViewController.swift in Sources */,
 				C363E32620B6B7A000C78F30 /* main.m in Sources */,
 				C363E31820B6B79A00C78F30 /* AppDelegate.m in Sources */,
 			);
@@ -281,35 +375,46 @@
 		};
 		C363E32A20B6B7A000C78F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD0D433369358A08A8CAE0F /* Pods-Emojenics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6F2AQX6B3Q;
+				DEVELOPMENT_TEAM = NTPK88KYAF;
 				INFOPLIST_FILE = Emojenics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emojenics.Emojenics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emojenics/Emojenics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C363E32B20B6B7A000C78F30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEFE345711CC13367886472 /* Pods-Emojenics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6F2AQX6B3Q;
+				DEVELOPMENT_TEAM = NTPK88KYAF;
 				INFOPLIST_FILE = Emojenics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emojenics.Emojenics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emojenics/Emojenics-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

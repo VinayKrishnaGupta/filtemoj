@@ -1,0 +1,20 @@
+PODS:
+  - CameraManager (4.0.1)
+  - GPUImage (0.1.7)
+
+DEPENDENCIES:
+  - CameraManager
+  - GPUImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CameraManager
+    - GPUImage
+
+SPEC CHECKSUMS:
+  CameraManager: 56b3516e8e22cfbf56f3f0401291561e1ad9b3d0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+
+PODFILE CHECKSUM: 9d84c831dcd1443f2eee1cbcd83467d41da83ef0
+
+COCOAPODS: 1.5.3
