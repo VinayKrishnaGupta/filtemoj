@@ -7,5 +7,6 @@ target 'Emojenics' do
 
   # Pods for Emojenics
    pod 'GPUImage'
-   pod 'CameraManager'
+   pod 'MetalPetal'
+#   pod 'CameraManager'
 end

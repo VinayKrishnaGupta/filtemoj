@@ -7,16 +7,32 @@
 //
 
 import UIKit
-import CameraManager
+import MetalPetal
 
 class CameraViewController: UIViewController {
-    let cameraManager = CameraManager()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        cameraManager.cameraDevice = .front
-        cameraManager.addPreviewLayerToView(self.view)
-
-        // Do any additional setup after loading the view.
+        let sampleImage = UIImage.init(named: "samplemen")?.ciImage
+        let inputImage = MTIImage.init(ciImage: sampleImage!)
+        
+        let filter = MTISaturationFilter()
+        filter.saturation = 0
+        filter.inputImage = inputImage
+        
+        let outputImage = filter.outputImage
+      
+        let mtimageview = MTIImageView.init(frame: self.view.bounds)
+        self.view.addSubview(mtimageview)
+        mtimageview.image = outputImage
+    }
+    
+    func convert(cmage:CIImage) -> UIImage
+    {
+        let context:CIContext = CIContext.init(options: nil)
+        let cgImage:CGImage = context.createCGImage(cmage, from: cmage.extent)!
+        let image:UIImage = UIImage.init(cgImage: cgImage)
+        return image
     }
 
     override func didReceiveMemoryWarning() {
