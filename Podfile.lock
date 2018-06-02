@@ -1,22 +1,24 @@
 PODS:
+  - CropViewController (2.3.6)
   - GPUImage (0.1.7)
-  - MetalPetal (0.4.7):
-    - MetalPetal/Core (= 0.4.7)
-  - MetalPetal/Core (0.4.7)
+  - ImagePicker (2.1.1)
 
 DEPENDENCIES:
+  - CropViewController
   - GPUImage
-  - MetalPetal
+  - ImagePicker (~> 2.1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CropViewController
     - GPUImage
-    - MetalPetal
+    - ImagePicker
 
 SPEC CHECKSUMS:
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
-  MetalPetal: e657666a2915f17bb7d3d664d5d471cf91c29c4f
+  ImagePicker: fe4c699abb56ff03994fa98d8b02e3883ee118be
 
-PODFILE CHECKSUM: 68415e7de16e67d28ac8cbecdbdb3f21ca240ed2
+PODFILE CHECKSUM: 7c8414f9eb72bb6b5d7d1d8744bb811fb74f1882
 
 COCOAPODS: 1.5.3

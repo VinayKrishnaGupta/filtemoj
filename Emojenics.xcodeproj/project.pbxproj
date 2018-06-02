@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B9B8DD0BD9CDA8E4EFE2CE16 /* Pods_Emojenics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00477F21DBA505D5C5FD08C9 /* Pods_Emojenics.framework */; };
+		C342044020BE8EE4006314AD /* CustomizableCamera in Resources */ = {isa = PBXBuildFile; fileRef = C342043F20BE8EE4006314AD /* CustomizableCamera */; };
+		C342044620BED747006314AD /* EmojieeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C342044520BED747006314AD /* EmojieeViewController.m */; };
 		C363E31820B6B79A00C78F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C363E31720B6B79A00C78F30 /* AppDelegate.m */; };
 		C363E31B20B6B79A00C78F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C363E31A20B6B79A00C78F30 /* ViewController.m */; };
 		C363E31E20B6B79A00C78F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C363E31C20B6B79A00C78F30 /* Main.storyboard */; };
@@ -20,12 +22,17 @@
 		C363E33320B822AD00C78F30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E33220B822AD00C78F30 /* AVFoundation.framework */; };
 		C363E33520B822B600C78F30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363E33420B822B600C78F30 /* QuartzCore.framework */; };
 		C363E33820B83D0F00C78F30 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363E33720B83D0F00C78F30 /* CameraViewController.swift */; };
+		C38DBB2B20C1222B0095207E /* ImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38DBB2820C1222B0095207E /* ImageCropView.m */; };
+		C38DBB2F20C122480095207E /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38DBB2D20C122480095207E /* FXBlurView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00477F21DBA505D5C5FD08C9 /* Pods_Emojenics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emojenics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEFE345711CC13367886472 /* Pods-Emojenics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojenics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics.release.xcconfig"; sourceTree = "<group>"; };
 		9BD0D433369358A08A8CAE0F /* Pods-Emojenics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojenics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics.debug.xcconfig"; sourceTree = "<group>"; };
+		C342043F20BE8EE4006314AD /* CustomizableCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomizableCamera; sourceTree = "<group>"; };
+		C342044420BED747006314AD /* EmojieeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmojieeViewController.h; sourceTree = "<group>"; };
+		C342044520BED747006314AD /* EmojieeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojieeViewController.m; sourceTree = "<group>"; };
 		C363E31320B6B79A00C78F30 /* Emojenics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojenics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C363E31620B6B79A00C78F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C363E31720B6B79A00C78F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +50,10 @@
 		C363E33420B822B600C78F30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C363E33620B83D0F00C78F30 /* Emojenics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emojenics-Bridging-Header.h"; sourceTree = "<group>"; };
 		C363E33720B83D0F00C78F30 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C38DBB2820C1222B0095207E /* ImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropView.m; sourceTree = "<group>"; };
+		C38DBB2920C1222B0095207E /* ImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropView.h; sourceTree = "<group>"; };
+		C38DBB2D20C122480095207E /* FXBlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		C38DBB2E20C122480095207E /* FXBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +116,13 @@
 		C363E31520B6B79A00C78F30 /* Emojenics */ = {
 			isa = PBXGroup;
 			children = (
+				C38DBB2420C120190095207E /* Models */,
 				C363E31620B6B79A00C78F30 /* AppDelegate.h */,
 				C363E31720B6B79A00C78F30 /* AppDelegate.m */,
 				C363E31920B6B79A00C78F30 /* ViewController.h */,
 				C363E31A20B6B79A00C78F30 /* ViewController.m */,
+				C342044420BED747006314AD /* EmojieeViewController.h */,
+				C342044520BED747006314AD /* EmojieeViewController.m */,
 				C363E33720B83D0F00C78F30 /* CameraViewController.swift */,
 				C363E31C20B6B79A00C78F30 /* Main.storyboard */,
 				C363E31F20B6B7A000C78F30 /* Assets.xcassets */,
@@ -116,8 +130,20 @@
 				C363E32420B6B7A000C78F30 /* Info.plist */,
 				C363E32520B6B7A000C78F30 /* main.m */,
 				C363E33620B83D0F00C78F30 /* Emojenics-Bridging-Header.h */,
+				C342043F20BE8EE4006314AD /* CustomizableCamera */,
 			);
 			path = Emojenics;
+			sourceTree = "<group>";
+		};
+		C38DBB2420C120190095207E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C38DBB2920C1222B0095207E /* ImageCropView.h */,
+				C38DBB2820C1222B0095207E /* ImageCropView.m */,
+				C38DBB2E20C122480095207E /* FXBlurView.h */,
+				C38DBB2D20C122480095207E /* FXBlurView.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C363E32320B6B7A000C78F30 /* LaunchScreen.storyboard in Resources */,
+				C342044020BE8EE4006314AD /* CustomizableCamera in Resources */,
 				C363E32020B6B7A000C78F30 /* Assets.xcassets in Resources */,
 				C363E31E20B6B79A00C78F30 /* Main.storyboard in Resources */,
 			);
@@ -196,13 +223,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Emojenics/Pods-Emojenics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
-				"${BUILT_PRODUCTS_DIR}/MetalPetal/MetalPetal.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MetalPetal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -234,10 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38DBB2B20C1222B0095207E /* ImageCropView.m in Sources */,
 				C363E31B20B6B79A00C78F30 /* ViewController.m in Sources */,
+				C38DBB2F20C122480095207E /* FXBlurView.m in Sources */,
 				C363E33820B83D0F00C78F30 /* CameraViewController.swift in Sources */,
 				C363E32620B6B7A000C78F30 /* main.m in Sources */,
 				C363E31820B6B79A00C78F30 /* AppDelegate.m in Sources */,
+				C342044620BED747006314AD /* EmojieeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +415,10 @@
 				DEVELOPMENT_TEAM = NTPK88KYAF;
 				INFOPLIST_FILE = Emojenics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emojenics.Emojenics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Emojenics/Emojenics-Bridging-Header.h";
@@ -403,7 +438,10 @@
 				DEVELOPMENT_TEAM = NTPK88KYAF;
 				INFOPLIST_FILE = Emojenics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emojenics.Emojenics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Emojenics/Emojenics-Bridging-Header.h";

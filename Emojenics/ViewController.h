@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property(nonatomic, retain) UIImage* ClickedImage1;
+@property (weak, nonatomic) IBOutlet UIImageView *filteredImageView;
 
 @end
 
